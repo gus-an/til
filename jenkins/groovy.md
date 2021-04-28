@@ -45,7 +45,7 @@ sh "docker rmi -f \$(docker images -q $ACR_SERVER/$ACR_REPO | head -n 1)"
 
 ## if/else
 
-- `if` 문 안에 스트링 이용이 가능하다.
+- `if` 조건문 안에 스트링 비교가 가능하다.
 
 ```groovy
 script{
